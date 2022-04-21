@@ -1,0 +1,9 @@
+div.portfolio_part, div.portfolio_part img {
+	width: 50%;
+}
+div.portfolio_part:nth-child(odd){
+    float: left;
+}
+div.portfolio_part:nth-child(even){
+    float: right;
+}
